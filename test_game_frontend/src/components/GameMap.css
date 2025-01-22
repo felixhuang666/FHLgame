@@ -1,0 +1,17 @@
+.game-map {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.map-row {
+    display: flex;
+}
+
+.map-cell {
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+} 
