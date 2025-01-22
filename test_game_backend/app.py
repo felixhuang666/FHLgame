@@ -18,5 +18,9 @@ def get_map():
         }
     })
 
+@app.route('/', methods=['GET'])
+def get_homepage():
+    return "hi"
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000) 
